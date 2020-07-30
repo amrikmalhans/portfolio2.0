@@ -1,0 +1,12 @@
+.Navbar {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-between;
+}
+
+.NavItems {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10vw;
+    background-color: aqua;
+}
