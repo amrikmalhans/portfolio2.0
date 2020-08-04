@@ -7,11 +7,14 @@
    height: 8vh;
    z-index: 999;
    align-items: center;
+   background-color: #1A1A18;
+   align-items: center;
 }
 
 .NavItems {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-top: 2.5%;
     column-gap: 5vw;
     margin-right: 3em;
     list-style: none;
@@ -19,6 +22,12 @@
 
 .NavItems li a {
     text-decoration: none;
-    color: #333;
+    color: rgb(231, 231, 231);
     font-weight: 600;
+}
+
+.Navbar img {
+    width: 35px;
+    margin-left: 2em;
+    margin-top: .5em;
 }
