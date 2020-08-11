@@ -9,9 +9,8 @@ const Navbar = () => {
       <nav className={styles.Navbar}>
         <img src={Logo} alt="logo" />
         <ul className={styles.NavItems}>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Hire me</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="mailto:amrikmalhans@gmail.com">Hire me</a></li>
         </ul>
       </nav>
     )

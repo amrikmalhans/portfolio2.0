@@ -29,29 +29,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'React Colors',
+    info:
+      'This is a React Color Pallete app where you can create and store different palletes, I did this project in the React course I took and learnt to built web apps with React. This was built with React.JS & Material UI.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://promising-era-244104.web.app/',
+    repo: 'https://github.com/am-coding/color-palette', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.jpg',
+    title: 'Soundzbay',
+    info: 'This is a static site I made with React.JS for a DJ/Producer friend to market and sell his beats, the owner of the site really liked the work, but we are thinking of revamping the site',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://soundzbay.firebaseapp.com/',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.jpg',
+    title: 'AnimeLab',
+    info: 'This is a full stack project I made with templating engine, Node.JS & MongoDB with Auth and API calls, it is an Anime directory site where users can search for animes and add them to their wishlist after creating an account.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://animeflixam.herokuapp.com/',
+    repo: 'https://github.com/am-coding/aniflix', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'amrikdeveloper@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +68,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      url: 'https://twitter.com/am_coding',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/am-coding',
     },
   ],
 };

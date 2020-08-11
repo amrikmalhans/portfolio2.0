@@ -13,10 +13,10 @@
 
 .NavItems {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin-top: 2.5%;
-    column-gap: 5vw;
-    margin-right: 3em;
+    column-gap: 4vw;
+    margin-right: 1.4em;
     list-style: none;
 }
 
@@ -25,6 +25,12 @@
     color: rgb(231, 231, 231);
     font-weight: 600;
 }
+
+.NavItems li a:hover {
+    color: #E01A4F;
+    font-weight: 600;
+}
+
 
 .Navbar img {
     width: 35px;
