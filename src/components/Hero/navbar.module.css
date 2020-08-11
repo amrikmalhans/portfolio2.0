@@ -15,8 +15,8 @@
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 2.5%;
-    column-gap: 4vw;
-    margin-right: 1.4em;
+    column-gap: 3.4vw;
+    margin-right: 4em;
     list-style: none;
 }
 
@@ -28,12 +28,11 @@
 
 .NavItems li a:hover {
     color: #E01A4F;
-    font-weight: 600;
 }
 
 
 .Navbar img {
     width: 35px;
-    margin-left: 2em;
+    margin-left: 2.5em;
     margin-top: .5em;
 }

@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Amrik Malhans | Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'This is my portfolio website', // e.g: Welcome to my website
+  description:
+    'I am a Full-Stack Web Developer building web applications and websties with MERN Stack and I can help you build a complex web app or a simple static website, or anything in between.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -21,7 +22,6 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -74,6 +74,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/am-coding',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://instagram.com/am.coding',
     },
   ],
 };
