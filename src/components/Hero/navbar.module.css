@@ -36,3 +36,13 @@
     margin-left: 2.5em;
     margin-top: .5em;
 }
+
+@media only screen and (max-width: 600px) {
+    .Navbar img {
+        margin-left: 1.8em;
+    }
+     .NavItems {
+         column-gap: 4vw;
+         margin-right: 1.5em;
+     }         
+}
