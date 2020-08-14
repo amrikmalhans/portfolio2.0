@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Technology and programming has always been my biggest passion and I love to create things with code! I am a self taught web developer and I am proficient in technoligies like HTML5, CSS3 & JavaScript, React.JS, Gatsby.JS & Material UI, Node.JS & MongoDB, I also have experiecne using GraphQL, Next.JS, SaSS and Go programming language.'}
+                    'Technology and programming has always been my biggest passion and I love to create things with code! I am a self taught web developer and I am proficient in technoligies like HTML5, CSS3 & JavaScript, React.JS, Gatsby.JS & Material UI, Node.JS & MongoDB, I also have experience using GraphQL, Next.JS, SaSS and Go programming language.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
