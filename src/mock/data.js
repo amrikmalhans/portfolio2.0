@@ -33,7 +33,7 @@ export const projectsData = [
     info:
       'This is a React Color Pallete app where you can create and store different palletes, I did this project in the React course I took and learnt to built web apps with React. This was built with React.JS & Material UI.',
     info2: '',
-    url: 'https://promising-era-244104.web.app/',
+    url: 'https://react-color-palette.vercel.app/',
     repo: 'https://github.com/am-coding/color-palette', // if no repo, the button will not show up
   },
   {
